@@ -416,6 +416,14 @@ header{position:sticky!important;top:0!important;z-index:5!important;background:
 @media(max-width:700px){.button-note{text-align:center !important;}}
 
 
+/* Contextual links to the order form. */
+.section-action { display: flex; justify-content: flex-end; margin-top: 26px; }
+.section-order-button { width: fit-content; max-width: 100%; padding: 16px 20px; border-radius: 0; font-size: 14px; }
+.delivery-order-button { margin-top: 26px; }
+@media (max-width: 700px) {
+  .section-action .section-order-button, .delivery-order-button { width: 100%; }
+}
+
 /* Problems and benefits: shared line illustrations and card layout. */
 :root{--brand-blue:#1647ff}
 .insight-section {
